@@ -1,3 +1,5 @@
+//MADE BY DOZENLIMESTONE: https://github.com/DozenLimeStone/Money-Suffixes
+//YOU NEED TO INCLUDE THIS COMMENT IN YOUR CODE ©
 function unformatMoney(stramount) {
     stramount=stramount.toLocaleString("fullwide",{useGrouping:false});
     if(isNaN(parseFloat(stramount))){return"Unvalid amount, source: unformatMoney. Can happen if someone puts a letter in front, or when a new bug appeared."; }
