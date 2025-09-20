@@ -1,3 +1,5 @@
+//MADE BY DOZENLIMESTONE: https://github.com/DozenLimeStone/Money-Suffixes
+//YOU NEED TO INCLUDE THIS COMMENT IN YOUR CODE ©
 function formatMoney(amount) {
     const suffixes = ['', 'K', 'M', 'B', 'T', 'Q', 'Qi', 'Sx', 'Sp', 'Oc', 'No', 'De', 'Un'];
     if(amount.toString()=="Infinity"){return"Infinity"+suffixes.slice(-1);}
